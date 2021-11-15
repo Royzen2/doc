@@ -1,7 +1,8 @@
 #include <cef>
-#include <dialogs>
 
 
+forward CefDialogs(player_id);
+forward OnCefDialogResponse(player_id, const arg[]);
 
 public OnGameModeInit()
 {
